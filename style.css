@@ -1,0 +1,79 @@
+.kitties-adoption div {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 20px;
+    /*background-color: red;*/
+}
+
+.kitties-adoption h3 {
+    margin-left: 40px;
+}
+
+.kitties-adoption div:nth-child(3) h3{
+    margin-left: 90px!important;
+}
+
+section {
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.kitties-adoption {
+    width: 960px;
+}
+
+.kitties-adoption h2 {
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+    #kitties-menu-desktop {
+        display: none!important;
+    }
+
+    #kitties-menu-mobile {
+        display: inline-block!important;
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: lightcoral;
+    }
+
+    #kitties-menu-mobile {
+        display: none;
+    }
+}
+
+#kitties-menu-desktop {
+    width: 20%;
+    display: inline-block;
+}
+
+#kitties-menu-mobile {
+    width: 20%;
+}
+
+#kitties-menu > div {
+    display: inline-block;
+}
+
+
+#kitties-menu-mobile > div, #kitties-menu-desktop > div {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+#kitties-description {
+    width: 70%;
+    display: inline-block;
+}
+
+* {
+    box-sizing: border-box;
+}
